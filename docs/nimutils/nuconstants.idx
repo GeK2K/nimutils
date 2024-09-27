@@ -1,0 +1,10 @@
+nimTitle	nuconstants	nimutils/nuconstants.html	module src/nimutils/nuconstants		0
+nim	ynYes	nimutils/nuconstants.html#ynYes	YesNo.ynYes		13
+nim	ynNo	nimutils/nuconstants.html#ynNo	YesNo.ynNo		13
+nim	YesNo	nimutils/nuconstants.html#YesNo	enum YesNo		13
+nim	fsFailure	nimutils/nuconstants.html#fsFailure	FailureSuccess.fsFailure		17
+nim	fsSuccess	nimutils/nuconstants.html#fsSuccess	FailureSuccess.fsSuccess		17
+nim	FailureSuccess	nimutils/nuconstants.html#FailureSuccess	enum FailureSuccess		17
+nim	swOn	nimutils/nuconstants.html#swOn	OnOffSwitch.swOn		21
+nim	swOff	nimutils/nuconstants.html#swOff	OnOffSwitch.swOff		21
+nim	OnOffSwitch	nimutils/nuconstants.html#OnOffSwitch	enum OnOffSwitch		21

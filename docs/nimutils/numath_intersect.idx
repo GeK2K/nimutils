@@ -1,0 +1,15 @@
+nimTitle	numath_intersect	nimutils/numath_intersect.html	module src/nimutils/numath_intersect		0
+nim	BoundedClosed	nimutils/numath_intersect.html#BoundedClosed	BoundedRealInterval.BoundedClosed		19
+nim	BoundedOpen	nimutils/numath_intersect.html#BoundedOpen	BoundedRealInterval.BoundedOpen		19
+nim	BoundedRightOpen	nimutils/numath_intersect.html#BoundedRightOpen	BoundedRealInterval.BoundedRightOpen		19
+nim	BoundedLeftClosed	nimutils/numath_intersect.html#BoundedLeftClosed	BoundedRealInterval.BoundedLeftClosed		19
+nim	BoundedLeftOpen	nimutils/numath_intersect.html#BoundedLeftOpen	BoundedRealInterval.BoundedLeftOpen		19
+nim	BoundedRightClosed	nimutils/numath_intersect.html#BoundedRightClosed	BoundedRealInterval.BoundedRightClosed		19
+nim	BoundedRealInterval	nimutils/numath_intersect.html#BoundedRealInterval	enum BoundedRealInterval		19
+nim	UnboundedLeftOpen	nimutils/numath_intersect.html#UnboundedLeftOpen	UnboundedRealInterval.UnboundedLeftOpen		28
+nim	UnboundedRightOpen	nimutils/numath_intersect.html#UnboundedRightOpen	UnboundedRealInterval.UnboundedRightOpen		28
+nim	UnboundedLeftClosed	nimutils/numath_intersect.html#UnboundedLeftClosed	UnboundedRealInterval.UnboundedLeftClosed		28
+nim	UnboundedRightClosed	nimutils/numath_intersect.html#UnboundedRightClosed	UnboundedRealInterval.UnboundedRightClosed		28
+nim	UnboundedRealInterval	nimutils/numath_intersect.html#UnboundedRealInterval	enum UnboundedRealInterval		28
+nim	RealInterval	nimutils/numath_intersect.html#RealInterval	type RealInterval		35
+nim	intersection	nimutils/numath_intersect.html#intersection,openArray[T],T,T,BoundedRealInterval,	proc intersection[T](oa: openArray[T]; lowerBound, upperBound: T;\n                interval: BoundedRealInterval; cmp: (T, T) -> int;\n                isSortedUnique = true): seq[T]		87

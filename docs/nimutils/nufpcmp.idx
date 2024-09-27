@@ -1,0 +1,10 @@
+nimTitle	nufpcmp	nimutils/nufpcmp.html	module src/nimutils/nufpcmp		0
+nim	eq	nimutils/nufpcmp.html#eq,T,T,typeof(epsilon(T)),typeof(minimumPositiveValue(T))	proc eq[T: SomeFloat](x, y: T; eps = epsilon(T); mpv = minimumPositiveValue(T)): bool		32
+nim	fpCmp	nimutils/nufpcmp.html#fpCmp,T,T,typeof(epsilon(T)),typeof(minimumPositiveValue(T))	proc fpCmp[T: SomeFloat](x, y: T; eps = epsilon(T); mpv = minimumPositiveValue(T)): int		56
+nim	neq	nimutils/nufpcmp.html#neq,T,T,typeof(epsilon(T)),typeof(minimumPositiveValue(T))	proc neq[T: SomeFloat](x, y: T; eps = epsilon(T); mpv = minimumPositiveValue(T)): bool		77
+nim	lt	nimutils/nufpcmp.html#lt,T,T,typeof(epsilon(T)),typeof(minimumPositiveValue(T))	proc lt[T: SomeFloat](x, y: T; eps = epsilon(T); mpv = minimumPositiveValue(T)): bool		88
+nim	leq	nimutils/nufpcmp.html#leq,T,T,typeof(epsilon(T)),typeof(minimumPositiveValue(T))	proc leq[T: SomeFloat](x, y: T; eps = epsilon(T); mpv = minimumPositiveValue(T)): bool		98
+nim	gt	nimutils/nufpcmp.html#gt,T,T,typeof(epsilon(T)),typeof(minimumPositiveValue(T))	proc gt[T: SomeFloat](x, y: T; eps = epsilon(T); mpv = minimumPositiveValue(T)): bool		109
+nim	geq	nimutils/nufpcmp.html#geq,T,T,typeof(epsilon(T)),typeof(minimumPositiveValue(T))	proc geq[T: SomeFloat](x, y: T; eps = epsilon(T); mpv = minimumPositiveValue(T)): bool		119
+heading	Motivation	nimutils/nufpcmp.html#motivation	 Motivation		0
+heading	Abstract	nimutils/nufpcmp.html#abstract	 Abstract		0

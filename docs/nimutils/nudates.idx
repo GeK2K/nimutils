@@ -1,0 +1,31 @@
+nimTitle	nudates	nimutils/nudates.html	module src/nimutils/nudates		0
+nim	MonthMonthday	nimutils/nudates.html#MonthMonthday	object MonthMonthday		128
+nim	month	nimutils/nudates.html#month,MonthMonthday	proc month(mmd: MonthMonthday): Month		144
+nim	monthday	nimutils/nudates.html#monthday,MonthMonthday	proc monthday(mmd: MonthMonthday): MonthdayRange		147
+nim	timeZone	nimutils/nudates.html#timeZone,MonthMonthday	proc timeZone(mmd: MonthMonthday): Option[Timezone]		150
+nim	newMonthMonthday	nimutils/nudates.html#newMonthMonthday,Month,MonthdayRange,Option[Timezone]	proc newMonthMonthday(month: Month = mJan; monthday: MonthdayRange = 1;\n                 zone: Option[Timezone] = none(Timezone)): MonthMonthday		154
+nim	cmpDate	nimutils/nudates.html#cmpDate,MonthMonthday,MonthMonthday	proc cmpDate(dt1, dt2: MonthMonthday): int		182
+nim	cmpDate	nimutils/nudates.html#cmpDate,DateTime,DateTime	proc cmpDate(dt1, dt2: DateTime): int		214
+nim	cmpDate	nimutils/nudates.html#cmpDate,DateTime,MonthMonthday	proc cmpDate(dt1: DateTime; dt2: MonthMonthday): int		241
+nim	cmpDate	nimutils/nudates.html#cmpDate.t,MonthMonthday,DateTime	template cmpDate(dt1: MonthMonthday; dt2: DateTime): untyped		263
+nim	cmpDateNoZero	nimutils/nudates.html#cmpDateNoZero,,	proc cmpDateNoZero(dt1: DateTime | MonthMonthday; dt2: DateTime | MonthMonthday): int		273
+nim	`==~`	nimutils/nudates.html#==~.t,,	template `==~`(dt1: DateTime | MonthMonthday; dt2: DateTime | MonthMonthday): untyped		332
+nim	`!==~`	nimutils/nudates.html#!==~.t,,	template `!==~`(dt1: DateTime | MonthMonthday; dt2: DateTime | MonthMonthday): untyped		352
+nim	`<<`	nimutils/nudates.html#<<.t,,	template `<<`(dt1: DateTime | MonthMonthday; dt2: DateTime | MonthMonthday): untyped		372
+nim	`>>`	nimutils/nudates.html#>>.t,,	template `>>`(dt1: DateTime | MonthMonthday; dt2: DateTime | MonthMonthday): untyped		391
+nim	`<<==~`	nimutils/nudates.html#<<==~.t,,	template `<<==~`(dt1: DateTime | MonthMonthday; dt2: DateTime | MonthMonthday): untyped		410
+nim	`>>==~`	nimutils/nudates.html#>>==~.t,,	template `>>==~`(dt1: DateTime | MonthMonthday; dt2: DateTime | MonthMonthday): untyped		427
+nim	gregorianEasterSundayMMDD	nimutils/nudates.html#gregorianEasterSundayMMDD,int	proc gregorianEasterSundayMMDD(year: int): Option[tuple[month: int, monthday: int]]		446
+nim	gregorianEasterSunday	nimutils/nudates.html#gregorianEasterSunday,int,HourRange,MinuteRange,SecondRange,NanosecondRange,Timezone	proc gregorianEasterSunday(year: int; hour: HourRange = 0; minute: MinuteRange = 0;\n                      second: SecondRange = 0; nanosecond: NanosecondRange = 0;\n                      zone: Timezone = local()): Option[DateTime]		501
+nim	julianEasterSundayMMDD	nimutils/nudates.html#julianEasterSundayMMDD,int	proc julianEasterSundayMMDD(year: int): Option[tuple[month: int, monthday: int]]		521
+nim	isLastDayOfFebruary	nimutils/nudates.html#isLastDayOfFebruary,DateTime	proc isLastDayOfFebruary(dt: DateTime): bool		559
+nim	getDayOfWeek	nimutils/nudates.html#getDayOfWeek,DateTime	proc getDayOfWeek(dt: DateTime): WeekDay		576
+nim	isSaturdayOrSunday	nimutils/nudates.html#isSaturdayOrSunday,DateTime	proc isSaturdayOrSunday(dt: DateTime): bool		581
+nim	nthWeekday	nimutils/nudates.html#nthWeekday,int,WeekDay,Month,int	proc nthWeekday(n: int; weekday: WeekDay; month: Month; year: int): Option[\n    MonthdayRange]		586
+nim	diffDays	nimutils/nudates.html#diffDays,DateTime,DateTime	proc diffDays(dt1, dt2: DateTime): int		638
+nimgrp	cmpdate	nimutils/nudates.html#cmpDate-procs-all	proc		182
+heading	Motivation	nimutils/nudates.html#motivation	 Motivation		0
+heading	Abstract	nimutils/nudates.html#abstract	 Abstract		0
+heading	Are there any alternatives?	nimutils/nudates.html#are-there-any-alternativesqmark	 Are there any alternatives?		0
+heading	MonthMonthday type	nimutils/nudates.html#monthmonthday-type	 MonthMonthday type		0
+heading	Other tools	nimutils/nudates.html#other-tools	 Other tools		0

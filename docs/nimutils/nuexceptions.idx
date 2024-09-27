@@ -1,0 +1,7 @@
+nimTitle	nuexceptions	nimutils/nuexceptions.html	module src/nimutils/nuexceptions		0
+nim	MethodWoImplemDefect	nimutils/nuexceptions.html#MethodWoImplemDefect	object MethodWoImplemDefect		60
+nim	methodWoImplemMsg	nimutils/nuexceptions.html#methodWoImplemMsg	const methodWoImplemMsg		64
+nim	newMethodWoImplemDefect	nimutils/nuexceptions.html#newMethodWoImplemDefect	proc newMethodWoImplemDefect(msg = methodWoImplemMsg): ref MethodWoImplemDefect		66
+heading	Motivation	nimutils/nuexceptions.html#motivation	 Motivation		0
+heading	Abstract	nimutils/nuexceptions.html#abstract	 Abstract		0
+heading	Use case	nimutils/nuexceptions.html#use-case	 Use case		0

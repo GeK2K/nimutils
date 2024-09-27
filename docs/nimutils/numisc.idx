@@ -1,0 +1,4 @@
+nimTitle	numisc	nimutils/numisc.html	module src/nimutils/numisc		0
+nim	RecordType	nimutils/numisc.html#RecordType	type RecordType		14
+nim	notSupposedToGetHere	nimutils/numisc.html#notSupposedToGetHere.t	template notSupposedToGetHere(): untyped		17
+nim	readAndCheckCfgParamValue	nimutils/numisc.html#readAndCheckCfgParamValue,Config,string,string,string	proc readAndCheckCfgParamValue(config: Config; section, paramName: string;\n                          defaultValue = ""): string		22
