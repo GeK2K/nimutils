@@ -5,7 +5,7 @@
 
 ## Introduction
 
-Some useful tools when programming with the Nim programming language.
+Some useful tools for programming with the Nim.
 
 
 ## Compatibility
@@ -15,12 +15,12 @@ Nim +2.0.0
 
 ## Sub-modules
 
-Each sub-module deals with a specific theme and 
-each sub-module is limited to a single Nim file.
-  - [exceptions](https://gek2k.github.io/nimutils/nuexceptions.html)
-  - [dates](https://gek2k.github.io/nimutils/nudates.html)
-  - [floating point comparisons](https://gek2k.github.io/nimutils/nufpcmp.html)
-  - [mathematical intersection](https://gek2k.github.io/nimutils/numath_intersect.html)
+Each sub-module deals with a specific theme and each
+sub-module is limited to a single Nim file. E.g.:
+  - [dates](https://gek2k.github.io/nimutils/nimutils/nudates.html)
+    (probably the most important sub-module at this stage)
+  - [mathematical intersection](https://gek2k.github.io/nimutils/nimutils/numath_intersect.html)
+  - [floating point comparisons](https://gek2k.github.io/nimutils/nimutils/nufpcmp.html)
 
 
 ## Getting started
@@ -38,3 +38,8 @@ requires "nimutils >= 0.2.0"
 ```
 
 and start using it.
+
+
+## Documentation
+  - [API Reference](https://gek2k.github.io/nimutils/nimutils.html)
+  - [Index](https://gek2k.github.io/nimutils)

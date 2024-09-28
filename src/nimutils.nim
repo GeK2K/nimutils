@@ -2,7 +2,7 @@
 ========
 nimutils
 ========
-Some useful tools when programming with the Nim programming language.
+Some useful tools for programming with the Nim programming language.
 ]##
 # imports/exports
 import  ./nimutils/[
